@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html id = 'html'>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Simple Paint</title>
+    </head>
+    <body id="body">
+        <h1 id="heading1">Simple Paint</h1>
+        <h2 id="sub-heading2">Paint your dream a reality!</h2>
+        <p>Pick your colour:
+            <button id="button0" class="backgroundWhite buttonColour"></button>
+            <button id="button1" class="backgroundRed buttonColour"></button>
+            <button id="button2" class="backgroundOrange buttonColour"></button>
+            <button id="button3" class="backgroundYellow buttonColour"></button>
+            <button id="button4" class="backgroundGreen buttonColour"></button>
+            <button id="button5" class="backgroundBlue buttonColour"></button>
+            <button id="button6" class="backgroundPink buttonColour"></button>
+            <button id="button7" class="backgroundPurple buttonColour"></button>
+            <button id="button8" class="backgroundBrown buttonColour"></button>
+            <button id="button9" class="backgroundBlack buttonColour"></button></p>
+            <p>or</p>
+        <p>Pick a custom color <input id="color" type="color"></p>
+        <p>Pick your brush:
+            <button id="line" class="buttonBrush">Line</button>
+            <button id="filledcircle" class="buttonBrush">Filled Circle</button>
+            <button id="outlinedcircle" class="buttonBrush">Outlined Circle</button>
+            <button id="filledtriangle" class="buttonBrush">Filled Triangle</button>
+            <button id="outlinedtriangle" class="buttonBrush">Outlined Triangle</button>
+        </p>
+        <p>Control your brush size using up and down arrow key. <strong>Brush Size: </strong><output id="output"></output></p>
+        <canvas id="canvas"></canvas>
+        
+        <p>Press 'SPACE BAR' to clear canvas.</p>
+        <script src="main.js"></script>
+    </body>
+</html>
